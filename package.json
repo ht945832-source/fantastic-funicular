@@ -1,14 +1,17 @@
-
 {
-  "name": "sun-analytics-api",
+  "name": "sun-websocket-api",
   "version": "1.0.0",
-  "description": "Hệ thống phân tích logic Tài Xỉu SunWin",
+  "description": "Hệ thống kết nối và phân tích dữ liệu SunWin",
   "main": "sun.js",
   "scripts": {
     "start": "node sun.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.19.2",
-    "axios": "^1.7.2"
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
