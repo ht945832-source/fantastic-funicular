@@ -2053,7 +2053,7 @@ function connectWebSocket() {
                         "sai": stats.wrong,
                         "ti_le": tiLe
                     },
-                    "id": "@nhan161019"
+                    "id": "@tranhoang2286"
                 };
 
                 // Log
